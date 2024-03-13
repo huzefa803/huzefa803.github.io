@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import heroBg from "../assets/webdev.svg";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
@@ -29,10 +29,10 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I am Huzefa
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
-                <Typical
+                {/* <Typical
                   steps={[
                     "Front End Developer",
                     1000,
@@ -42,7 +42,8 @@ const Home = () => {
                     1000,
                   ]}
                   loop={Infinity}
-                />
+                /> */}
+                Software Engineer
               </span>
             </h1>
             <p
